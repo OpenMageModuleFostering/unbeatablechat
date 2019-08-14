@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <menu>
-        <unbeatabletab module="reviewshelper" translate="title">
+        <unbeatabletab module="unbeatablechat" translate="title">
             <title>Unbeatable</title>
             <sort_order>100</sort_order>
             <children>
-                <setup module="reviewshelper" translate="title">
+                <setup module="unbeatablechat" translate="title">
                     <title>Setup</title>
                     <sort_order>1</sort_order>
                     <action>adminhtml/system_config/edit/section/unbeatable</action>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <config>
     <modules>
         <Unbeatable_Chat>
@@ -7,31 +6,17 @@
         </Unbeatable_Chat>
     </modules>
     <global>
-
-        <!-- Defining models -->
         <models>
-
-            <unbeatable_chat>
-
+            <unbeatablechat>
                 <class>Unbeatable_Chat_Model</class>
-
-            </unbeatable_chat>
-
-        </models>
-
-        <models>
-            <mymodule>
-                <class>Unbeatable_Chat_Model</class>
-            </mymodule>
+            </unbeatablechat>
         </models>
         <helpers>
-            <mymodule>
+            <unbeatablechat>
                 <class>Unbeatable_Chat_Helper</class>
-            </mymodule>
+            </unbeatablechat>
         </helpers>
-
     </global>
-
     <adminhtml>
         <acl>
             <resources>
@@ -59,7 +44,7 @@
     <frontend>
         <layout>
             <updates>
-                <Unbeatable_Chat   module="Unbeatable_Chat" >
+                <Unbeatable_Chat  module="Unbeatable_Chat">
                     <file>unbeatable.xml</file>
                 </Unbeatable_Chat>
             </updates>
