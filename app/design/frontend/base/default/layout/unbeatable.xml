@@ -2,7 +2,7 @@
 <layout>
     <default>
         <reference name="before_body_end">
-            <block type="core/template"
+            <block type="unbeatablechat/footer"
                    name="unbeatable_layout_footer"
                    template="unbeatable/footer.phtml" />
         </reference>

@@ -42,7 +42,7 @@ class Unbeatable_Chat_Helper_Data extends Mage_Core_Helper_Abstract {
                 window.console && console.log(e);
             }
         };                   
-        ajax('/unbeatable/cart/index', function(response){
+        ajax('" . Mage::getBaseUrl() . "unbeatable/cart/index', function(response){
             if(Unbeatable){
                 Unbeatable.setItems(JSON.parse(response)); 
             }

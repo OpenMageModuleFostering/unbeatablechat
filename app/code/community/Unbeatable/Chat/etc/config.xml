@@ -2,45 +2,26 @@
 <config>
     <modules>
         <Unbeatable_Chat>
-            <version>0.1.0</version>
+            <version>0.1.1</version>
         </Unbeatable_Chat>
     </modules>
     <global>
-        <models>
+        <blocks>
             <unbeatablechat>
-                <class>Unbeatable_Chat_Model</class>
+                <class>Unbeatable_Chat_Block</class>
             </unbeatablechat>
-        </models>
+        </blocks>
         <helpers>
             <unbeatablechat>
                 <class>Unbeatable_Chat_Helper</class>
             </unbeatablechat>
         </helpers>
+        <models>
+            <unbeatablechat>
+                <class>Unbeatable_Chat_Model</class>
+            </unbeatablechat>
+        </models>
     </global>
-    <adminhtml>
-        <acl>
-            <resources>
-                <all>
-                    <title>Allow Everything</title>
-                </all>
-                <admin>
-                    <children>
-                        <system>
-                            <children>
-                                <config>
-                                    <children>
-                                        <unbeatable>
-                                            <title>Unbeatable - All</title>
-                                        </unbeatable>
-                                    </children>
-                                </config>
-                            </children>
-                        </system>
-                    </children>
-                </admin>
-            </resources>
-        </acl>
-    </adminhtml>
     <frontend>
         <layout>
             <updates>

@@ -2,13 +2,8 @@
 <config>
     <modules>
         <Unbeatable_Chat>
-
-            <!-- Whether our module is active: true or false -->
             <active>true</active>
-
-            <!-- Which code pool to use: core, community or local -->
             <codePool>community</codePool>
-
         </Unbeatable_Chat>
     </modules>
 </config>

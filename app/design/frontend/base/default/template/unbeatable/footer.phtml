@@ -1,6 +1,5 @@
 <?php
-$enabled = Mage::getStoreConfig('unbeatable/unbeatable_group2/unbeatable_chat_enabled', Mage::app()->getStore());
-if($enabled){
+if($this->isEnabled()){
     Mage::helper('unbeatablechat')->insertChatWidget();
 }
 ?>

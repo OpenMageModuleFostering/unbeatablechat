@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-    <tabs>
-        <unbeatable translate="label" module="unbeatablechat">
-            <label>Unbeatable</label>
-            <sort_order>100</sort_order>
-        </unbeatable>
-    </tabs>
     <sections>
         <unbeatable translate="label" module="unbeatablechat">
-            <label>Setup</label>
-            <tab>unbeatable</tab>
+            <label>Unbeatable Chat</label>
+            <tab>customer</tab>
             <sort_order>1000</sort_order>
             <show_in_default>1</show_in_default>
             <show_in_website>1</show_in_website>

@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-    <menu>
-        <unbeatabletab module="unbeatablechat" translate="title">
-            <title>Unbeatable</title>
-            <sort_order>100</sort_order>
-            <children>
-                <setup module="unbeatablechat" translate="title">
-                    <title>Setup</title>
-                    <sort_order>1</sort_order>
-                    <action>adminhtml/system_config/edit/section/unbeatable</action>
-                </setup>
-            </children>
-        </unbeatabletab>
-    </menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <unbeatable>
+                                        <title>Unbeatable - All</title>
+                                    </unbeatable>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
 </config>
