@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <modules>
+        <Unbeatable_Chat>
+            <version>0.1.0</version>
+        </Unbeatable_Chat>
+    </modules>
+    <global>
+
+        <!-- Defining models -->
+        <models>
+
+            <unbeatable_chat>
+
+                <class>Unbeatable_Chat_Model</class>
+
+            </unbeatable_chat>
+
+        </models>
+
+        <models>
+            <mymodule>
+                <class>Unbeatable_Chat_Model</class>
+            </mymodule>
+        </models>
+        <helpers>
+            <mymodule>
+                <class>Unbeatable_Chat_Helper</class>
+            </mymodule>
+        </helpers>
+
+    </global>
+
+    <adminhtml>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <unbeatable>
+                                            <title>Unbeatable - All</title>
+                                        </unbeatable>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+    <frontend>
+        <layout>
+            <updates>
+                <Unbeatable_Chat   module="Unbeatable_Chat" >
+                    <file>unbeatable.xml</file>
+                </Unbeatable_Chat>
+            </updates>
+        </layout>
+    </frontend>
+</config>

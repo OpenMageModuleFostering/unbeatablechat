@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <default>
+        <reference name="footer">
+            <block type="core/template"
+                   name="unbeatable_layout_footer"
+                   template="unbeatable/footer.phtml" />
+        </reference>
+    </default>
+</layout>

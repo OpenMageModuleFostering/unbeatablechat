@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>unbeatablechat</name>
+    <version>0.2.0</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Unbeatable Chat Integration</summary>
+    <description>Unbeatable Chat Integration</description>
+    <notes>Initial Release</notes>
+    <authors><author><name>Unbeatable.com</name><user>Unbetable</user><email>support@unbeatable.com</email></author></authors>
+    <date>2016-02-02</date>
+    <time>15:07:07</time>
+    <contents><target name="magecommunity"><dir name="Unbeatable"><dir name="Chat"><dir name="Helper"><file name="Data.php" hash="d045a1e0a7f76e5c7e9a14aabdc1af09"/></dir><dir name="Model"><file name="Observer.php" hash="bb73c1f8ef8b3f4b6fd3240c64334ef2"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="UnbeatableController.php" hash="588444bc54c48c83b119f4edb3ceef2b"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="40bb51aa9fa9d12274f076c558a02365"/><file name="config.xml" hash="f207f91cc18dbef8254d2ae6b762ecaf"/><file name="system.xml" hash="49cb251a3fb9cb854a8adeb777bb8b27"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Unbeatable_Chat.xml" hash="820d09c2f6a920a287894ace7032acc9"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="unbeatable"><file name="footer.phtml" hash="3aa7a4e1311dd486aef6a9223fa150da"/></dir></dir><dir name="layout"><file name="unbeatable.xml" hash="c746ee1959fba615556db84abdedad54"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>7.0.0</max></php></required></dependencies>
+</package>
