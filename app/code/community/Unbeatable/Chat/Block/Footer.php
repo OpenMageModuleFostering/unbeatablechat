@@ -11,6 +11,6 @@ class Unbeatable_Chat_Block_Footer extends Mage_Core_Block_Template
     }
 
     public function getApiKey() {
-        return Mage::getStoreConfig(self::XML_PATH_CHAT_ENABLED, Mage::app()->getStore());
+        return Mage::getStoreConfig(self::XML_PATH_CHAT_API_KEY, Mage::app()->getStore());
     }
 }
