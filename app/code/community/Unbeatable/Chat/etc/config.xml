@@ -49,5 +49,14 @@
                 </Unbeatable_Chat>
             </updates>
         </layout>
+        <routers>
+            <unbeatable>
+                <use>standard</use>
+                <args>
+                    <module>Unbeatable_Chat</module>
+                    <frontName>unbeatable</frontName>
+                </args>
+            </unbeatable>
+        </routers>
     </frontend>
 </config>

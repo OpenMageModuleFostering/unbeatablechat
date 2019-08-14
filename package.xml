@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>unbeatablechat</name>
-    <version>0.2.1</version>
+    <version>0.2.2</version>
     <stability>stable</stability>
     <license>GPL</license>
     <channel>community</channel>
     <extends/>
     <summary>Unbeatable Chat Integration</summary>
     <description>Unbeatable Chat Integration</description>
-    <notes>Initial Release</notes>
+    <notes>Bug Fix for Widget - Wasn't Displaying Properly on Themes</notes>
     <authors><author><name>Unbeatable.com</name><user>Unbetable</user><email>support@unbeatable.com</email></author></authors>
-    <date>2016-02-02</date>
-    <time>16:57:09</time>
-    <contents><target name="magecommunity"><dir name="Unbeatable"><dir name="Chat"><dir name="Helper"><file name="Data.php" hash="9056ef430c5fd34d6d5138a84bf08e25"/></dir><dir name="Model"><file name="Observer.php" hash="c19a8efa9855b590037bc16244b47ec9"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="UnbeatableController.php" hash="588444bc54c48c83b119f4edb3ceef2b"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="fa15a41d1ffeec89707d3d4c24f72ab6"/><file name="config.xml" hash="557901b9b3a9c4171d47f0a784782ec6"/><file name="system.xml" hash="1f0893eddea95ea760e707934595d6c7"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Unbeatable_Chat.xml" hash="820d09c2f6a920a287894ace7032acc9"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="unbeatable"><file name="footer.phtml" hash="664adb023e9f2696ba91cc20c4c81d3f"/></dir></dir><dir name="layout"><file name="unbeatable.xml" hash="c746ee1959fba615556db84abdedad54"/></dir></dir></dir></dir></target></contents>
+    <date>2016-02-04</date>
+    <time>16:16:54</time>
+    <contents><target name="magecommunity"><dir name="Unbeatable"><dir name="Chat"><dir name="Helper"><file name="Data.php" hash="d5ef36c6d48c9f07049383816bb4c9c1"/></dir><dir name="Model"><file name="Observer.php" hash="c19a8efa9855b590037bc16244b47ec9"/></dir><dir name="controllers"><file name="CartController.php" hash="b2f0199f7bdf8508ac1cb15e85209a14"/></dir><dir name="etc"><file name="adminhtml.xml" hash="fa15a41d1ffeec89707d3d4c24f72ab6"/><file name="config.xml" hash="e116d2578bb73629137f72879777869f"/><file name="system.xml" hash="1f0893eddea95ea760e707934595d6c7"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Unbeatable_Chat.xml" hash="820d09c2f6a920a287894ace7032acc9"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="unbeatable"><file name="footer.phtml" hash="cad65e2da06237c6824c2f82b761d3ae"/></dir></dir><dir name="layout"><file name="unbeatable.xml" hash="4fc711f5c8c2a25192b6ed443b8a3d8a"/></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.0.0</min><max>7.0.0</max></php></required></dependencies>
 </package>
