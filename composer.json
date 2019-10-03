@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/unbeatablechat",
+    "name": "OpenMageModuleFostering\/unbeatablechat",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "Unbeatable Chat Integration",
     "authors": [
-    {
-        "name": "Unbeatable.com",
-        "email": "support@unbeatable.com"
-    }
-],
+        {
+            "name": "Unbeatable.com",
+            "email": "support@unbeatable.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
